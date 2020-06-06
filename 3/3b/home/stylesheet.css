@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+}
+.main{
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    
+}
+.logo{
+    float: left;
+    margin: 0 45px;
+}
+.logo img{
+    width: 100%;
+    margin-top: -35px;
+}
+.search {
+    float: left;
+    width: 70%;
+    height: 40px;
+    left: 226px;
+    background: #CECECE;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.btn{
+    float: right;
+    width: 120px;
+    padding: 15px;
+    color: white;
+    background: #FADC9C;
+    border-radius: 10px;
+    margin-right: 40px;
+    border: 1px solid white;
+}
+.inside{
+    padding-top: 20px;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 60px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+table img{
+    width: 25%;
+    margin-left: 10px;;
+}
+.thead{
+    background: #FADC9C;
+    color: white;
+}
+table td, table th{
+    padding: 20px;
+}
+.modal-body input{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 20px;
+    border: none;
+    color: #969191;
+    border-bottom: 1px solid #969191;
+}
+.delete h4{
+    text-align: center;
+    font-weight: bold;
+}
+.delete img{
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+}
+.delete span{
+    color: rgb(83, 81, 77);;
+}
